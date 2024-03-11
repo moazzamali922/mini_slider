@@ -1,0 +1,112 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <!--============== CSS =============-->
+  <link rel="stylesheet" href="./Style.css">
+  <!--============== Bootstrap link =============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <!-- _____ Slick Slider _____ -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
+
+</head>
+
+<body>
+
+  <!-- _______________________________________________ Offers Product Slider _____________________________________________________ -->
+
+
+  <div class="container my-3">
+    <div class="row justify-content-center">
+      <div class="col-lg-7 col-md-8">
+        <div class="text-center">
+          <h1 class="text-dark fw-bold" style="font-size: 55px;">Slick Slider</h1>
+          <p class="text-dark fw-bold">Experience the power of web app graphic marketing. Our innovative solutions
+            drive engagement and boost brand visibility, turning your ideas into captivating visual stories.
+            Harness the potential of modern marketing to create lasting impressions.</p>
+        </div>
+      </div>
+    </div>
+    <br>
+
+
+
+    <div class="slider">
+      <div class="mx-2">
+        <img src="./images/image1.jpg" alt="">
+        <div class="text-center xyz">
+          <h2 class="pt-2 fw-bold">Branding & Graphic Design</h2>
+          <p class="px-2">We are experienced in everything that makes an effective brand, from logo and naming to
+            branded items, and corporate style.</p>
+          <div class="d-grid gap-2 col-8 mx-auto mb-4 btn btn-secondary ">View more</div>
+        </div>
+      </div>
+      <div class="mx-2">
+        <img src="./images/image2.jpg" alt="">
+        <div class="text-center xyz">
+          <h2 class="pt-2 fw-bold">Web Design & Development</h2>
+          <p class="px-2">The full cycle of services to create and launch a website from scratch or redesign a live
+            website along with the modern trends and requirements.</p>
+          <div class="d-grid gap-2 col-8 mx-auto mb-4 btn btn-secondary ">View more</div>
+        </div>
+      </div>
+      <div class="mx-2">
+        <img src="./images/image3.jpg" alt="">
+        <div class="text-center xyz">
+          <h2 class="pt-2 fw-bold">Mobile Apps Services</h2>
+          <p class="px-2">All the way from idea to launch for iOS and Android mobile apps. We create the elegant user
+            experience for applications that achieve business goals and make users happy.</p>
+          <div class="d-grid gap-2 col-8 mx-auto mb-4 btn btn-secondary ">View more</div>
+        </div>
+      </div>
+      <div class="mx-2">
+        <img src="./images/image4.jpg" alt="">
+        <div class="text-center xyz">
+          <h2 class="pt-2 fw-bold">Marketing Services</h2>
+          <p class="px-2">Marketing is an ongoing strategy of aligning your messaging to fit your customer’s emotional
+            needs and choosing the right channels to distribute your messaging.</p>
+          <div class="d-grid gap-2 col-8 mx-auto mb-4 btn btn-secondary ">View more</div>
+        </div>
+      </div>
+      <div class="mx-2">
+        <img src="./images/image5.jpg" alt="">
+        <div class="text-center xyz">
+          <h2 class="pt-2 fw-bold">Augmented & Virtual Reality</h2>
+          <p class="px-2">We develop memorable, innovative augmented and virtual marketing experiences to help brands
+            stand out from their competitors while offering customers unique and useful applications.</p>
+          <div class="d-grid gap-2 col-8 mx-auto mb-4 btn btn-secondary ">View more</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ___________ Slick Slider ______________ -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <script>
+    $('.slider').slick({
+      centerMode: true,
+      dots: true,
+      autoplay: true, // Autoplay ko enable karein
+      autoplaySpeed: 1000, // 1000 milliseconds (1 second) ka interval set karein
+      centerPadding: '60px',
+      slidesToShow: 3,
+      responsive: [{
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          Infinity: true,
+          slidesToShow: 1
+        },
+      }]
+    });
+  </script>
+
+</body>
+
+</html>
